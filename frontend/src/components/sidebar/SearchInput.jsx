@@ -26,13 +26,13 @@ const SearchInput = () => {
 	return (
 		
 	
-		<div className='flex flex-col min-w-36 max-w-56'>
+		<div className='grid justify-items-stretch min-w-36 max-w-56'>
 	
 		<form onSubmit={handleSubmit} className='flex justify-evenly items-center gap-2'>
 			<input
 				type='text'
 				placeholder='Search…'
-				className='input w-[70%] input-bordered rounded-full'
+				className='input w-[80%] input-bordered rounded-full'
 				value={search}
 				onChange={(e) => setSearch(e.target.value)}
 			/>
