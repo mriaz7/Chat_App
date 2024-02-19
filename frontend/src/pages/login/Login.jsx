@@ -18,17 +18,17 @@ const Login = () => {
 			<div className='w-full p-6 rounded-lg shadow-md bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0'>
 				<h1 className='text-3xl font-semibold text-center text-gray-300'>
 					Login
-					<span className='text-green-500'> Friendly ChatApp</span>
+					<span className='text-green-500'> Friendly Chat</span>
 				</h1>
 
 				<form onSubmit={handleSubmit}>
 					<div>
 						<label className='label p-2'>
-							<span className='text-sm text-slate-100'>Username</span>
+							<span className='text-sm text-slate-100'>Email </span>
 						</label>
 						<input
 							type='text'
-							placeholder='Enter username'
+							placeholder='Enter Email'
 							className='w-full input input-bordered h-10'
 							value={username}
 							onChange={(e) => setUsername(e.target.value)}
