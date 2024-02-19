@@ -37,7 +37,7 @@ const SignUp = () => {
 						</label>
 						<input
 							type='text'
-							placeholder='Enter your First Name'
+							placeholder='First Name'
 							className='w-full input input-bordered  h-10'
 							value={inputs.fullName}
 							onChange={(e) => setInputs({ ...inputs, fullName: e.target.value })}
@@ -50,7 +50,19 @@ const SignUp = () => {
 						</label>
 						<input
 							type='text'
-							placeholder='Enter your Last Name'
+							placeholder='Last Name'
+							className='w-full input input-bordered h-10'
+							value={inputs.username}
+							onChange={(e) => setInputs({ ...inputs, username: e.target.value })}
+						/>
+					</div>
+					<div>
+						<label className='label p-2 '>
+							<span className='text-sm  text-slate-200'>Email</span>
+						</label>
+						<input
+							type='text'
+							placeholder='ex : name@email.com'
 							className='w-full input input-bordered h-10'
 							value={inputs.username}
 							onChange={(e) => setInputs({ ...inputs, username: e.target.value })}
