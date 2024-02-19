@@ -25,14 +25,10 @@ const SearchInput = () => {
 	};
 	return (
 		
-		<div style={{
-			display:"flex",
-			justifyContent:"space-evenly",
-			alignItems:"center"}}>
-		
+	
 		<div className='flex flex-col min-w-36 max-w-56'>
 	
-		<form onSubmit={handleSubmit} className='flex items-center gap-2'>
+		<form onSubmit={handleSubmit} className='flex justify-evenly items-center gap-2'>
 			<input
 				type='text'
 				placeholder='Search…'
@@ -47,7 +43,7 @@ const SearchInput = () => {
 		
 
 		</div>
-		</div>
+	
 	);
 };
 export default SearchInput;
