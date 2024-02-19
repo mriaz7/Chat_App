@@ -20,6 +20,7 @@ const Login = () => {
 					Login
 					<span className='text-green-500'> Friendly Chat</span>
 				</h1>
+				<div className='divider px-3'></div>
 
 				<form onSubmit={handleSubmit}>
 					<div>

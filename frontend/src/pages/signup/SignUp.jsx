@@ -29,6 +29,7 @@ const SignUp = () => {
 				<h1 className='text-3xl font-semibold text-center text-gray-300'>
 					Sign Up <span className='text-green-500'> Friendly Chat</span>
 				</h1>
+				<div className='divider px-3'></div>
 
 				<form onSubmit={handleSubmit}>
 					<div>
