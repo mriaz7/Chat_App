@@ -46,7 +46,7 @@ const SignUp = () => {
 
 					<div>
 						<label className='label p-2 '>
-							<span className='text-base label-text'>Username</span>
+							<span className='text-sm  text-slate-100'>Username</span>
 						</label>
 						<input
 							type='text'
@@ -59,7 +59,7 @@ const SignUp = () => {
 
 					<div>
 						<label className='label'>
-							<span className='text-base label-text'>Password</span>
+							<span className='text-sm  text-slate-100'>Password</span>
 						</label>
 						<input
 							type='password'
@@ -72,7 +72,7 @@ const SignUp = () => {
 
 					<div>
 						<label className='label'>
-							<span className='text-base label-text'>Confirm Password</span>
+							<span className='text-sm  text-slate-100'>Confirm Password</span>
 						</label>
 						<input
 							type='password'
