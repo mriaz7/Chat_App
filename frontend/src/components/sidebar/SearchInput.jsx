@@ -23,7 +23,7 @@ const SearchInput = () => {
 			setSearch("");
 		} else toast.error("No such user found!");
 	};
-	return ( <div className='min-w-36 mx-auto'>
+	return ( <div className='flex flex-col min-w-36 mx-auto'>
 	
 		<form onSubmit={handleSubmit} className='flex items-center gap-2'>
 			<input
