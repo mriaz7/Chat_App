@@ -33,11 +33,11 @@ const SignUp = () => {
 				<form onSubmit={handleSubmit}>
 					<div>
 						<label className='label p-2'>
-							<span className='text-sm  text-slate-200'>Full Name</span>
+							<span className='text-sm  text-slate-200'>First Name</span>
 						</label>
 						<input
 							type='text'
-							placeholder='John Doe'
+							placeholder='Enter your First Name'
 							className='w-full input input-bordered  h-10'
 							value={inputs.fullName}
 							onChange={(e) => setInputs({ ...inputs, fullName: e.target.value })}
@@ -46,11 +46,11 @@ const SignUp = () => {
 
 					<div>
 						<label className='label p-2 '>
-							<span className='text-sm  text-slate-200'>Username</span>
+							<span className='text-sm  text-slate-200'>Last Name</span>
 						</label>
 						<input
 							type='text'
-							placeholder='johndoe'
+							placeholder='Enter your Last Name'
 							className='w-full input input-bordered h-10'
 							value={inputs.username}
 							onChange={(e) => setInputs({ ...inputs, username: e.target.value })}
