@@ -23,7 +23,8 @@ const SearchInput = () => {
 			setSearch("");
 		} else toast.error("No such user found!");
 	};
-	return (
+	return ( <div className='min-w-36 mx-auto'>
+	
 		<form onSubmit={handleSubmit} className='flex items-center gap-2'>
 			<input
 				type='text'
@@ -36,6 +37,7 @@ const SearchInput = () => {
 				<IoSearchSharp className='w-6 h-6 outline-none' />
 			</button>
 		</form>
+		</div>
 	);
 };
 export default SearchInput;
